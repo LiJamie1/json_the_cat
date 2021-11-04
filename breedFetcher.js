@@ -16,20 +16,3 @@ request(`https://api.thecatapi.com/v1/breeds/search?q=${args[0]}`, (error, respo
 
   console.log(`${data[0].name}: ${data[0].description}`)
 });
-
-
-// console.log('body:', body);
-// console.log(typeof body)
-// console.log(body.length)
-// if(error) throw err;
-
-// if (body.length === 2) {
-//   console.log("The breed you are looking for does not exist")
-//   return
-// }
-
-// const data = JSON.parse(body);
-// console.log(data[0].description);
-// console.log(data)
-// console.log(typeof data);
-// return data
